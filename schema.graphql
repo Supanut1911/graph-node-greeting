@@ -1,4 +1,5 @@
-type Greeting @entity {
-    id: ID!
-    currentGreeting: String!
+type Greeter @entity {
+  id: ID!
+  greeting: String!
+  timestamp: BigInt!
 }
